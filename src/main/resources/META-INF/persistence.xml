@@ -3,6 +3,9 @@
   <persistence-unit name="conexionCrud" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>Entidades.Usuarios</class>
+    <class>Entidades.Productos</class>
+    <class>Controlador.Tiendas</class>
+    <class>Entidades.Tiendas</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dbusuarios?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
       <property name="javax.persistence.jdbc.user" value="root"/>
